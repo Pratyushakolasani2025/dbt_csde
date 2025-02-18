@@ -1,0 +1,10 @@
+version: 1
+ 
+sources:
+  - name: raw_data
+    database: FINANCE  
+    schema: raw  
+    tables:
+      - name: EXPENSES
+      - name: APPROVAL_STAGES
+      - name: EMPLOYEES
